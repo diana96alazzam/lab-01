@@ -50,24 +50,6 @@ main {
 	margin: 0px auto;
 }
 
-header {
-	width: 478px;
-	height: 75px;
-	background-color: #d8d8d8;
-	line-height: 75px;
-	border: solid black 1px;
-	border-bottom: none;
-}
-
-nav {
-	width: 478px;
-	height: 150px;
-	background-color: #d8d8d8;
-	line-height: 150px;
-	border: solid black 1px;
-
-}
-
 article div:nth-child(1), article div:nth-child(2) {
 	width: 478px;
 	height: 125px;
@@ -139,32 +121,11 @@ div:last-child {
 		text-align: center;
 		margin: 0px auto;
 	}
-	header {
-		width: 958px;
-		height: 98px;
-		background-color: #d8d8d8;
-		line-height: 98px;
-	}
-	nav {
-		width: 200px;
-		height: 600px;
-		background-color: #d8d8d8;
-		line-height: 600px;
-		float: left;
-	}
-	article {
-		width: 757px;
-		float: left;
-		background-color: palevioletred;
-		clear: right;
-		border: solid black 1px;
-		border-left: none;
 
-	}
 	article div:nth-child(1){
 		width: 378px;
 		height: 200px;
-		background-color: #d8d8d8;
+		background-color: #0b3f41;
 		line-height: 200px;
 		float: left;
 		clear: right;
@@ -173,7 +134,7 @@ div:last-child {
 	article div:nth-child(2){
 		width: 378px;
 		height: 200px;
-		background-color: #d8d8d8;
+		background-color: #0b3f41;
 		line-height: 200px;
 		float: left;
 		clear: right;
@@ -185,7 +146,7 @@ div:last-child {
 	section:nth-child(1){
 		width: 189px;
 		height: 250px;
-		background-color: #d8d8d8;
+		background-color: #0b3f41;
 		float: left;
 		clear: right;
 		line-height: 250px;
@@ -196,7 +157,7 @@ div:last-child {
 	section:nth-child(2){
 		width: 188px;
 		height: 250px;
-		background-color: #d8d8d8;
+		background-color: #0b3f41;
 		float: left;
 		clear: right;
 		line-height: 250px;
@@ -204,6 +165,7 @@ div:last-child {
 
 	section:nth-child(3){
 		width: 189px;
+		background-color: #0b3f41;
 		border-left: none;
 		border-top: none;
 		border-right: solid black 1px;
@@ -212,7 +174,7 @@ div:last-child {
 	section:nth-child(4) {
 		width: 188px;
 		height: 250px;
-		background-color: #d8d8d8;
+		background-color: #0b3f41;
 		float: left;
 		clear: right;
 		line-height: 250px;
@@ -223,7 +185,7 @@ div:last-child {
 	div:last-child {
 		width: 757px;
 		height: 148px;
-		background-color: #d8d8d8;
+		background-color: #0b3f41;
 		clear: both;
 		line-height: 150px;
 		border-left: none;
