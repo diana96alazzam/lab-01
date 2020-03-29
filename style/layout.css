@@ -1,0 +1,43 @@
+header {
+	width: 478px;
+	height: 75px;
+	background-color: #d8d8d8;
+	line-height: 75px;
+	border: solid black 1px;
+	border-bottom: none;
+}
+
+nav {
+	width: 478px;
+	height: 150px;
+	background-color: #d8d8d8;
+	line-height: 150px;
+	border: solid black 1px;
+
+}
+
+
+@media (min-width:768px) {
+	header {
+		width: 958px;
+		height: 98px;
+		background-color: #0b3f41;
+		line-height: 98px;
+	}
+	nav {
+		width: 200px;
+		height: 600px;
+		background-color: #0b3f41;
+		line-height: 600px;
+		float: left;
+	}
+	article {
+		width: 757px;
+		float: left;
+		clear: right;
+		border: solid black 1px;
+		border-left: none;
+
+	}
+    
+}
