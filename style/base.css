@@ -1,60 +1,5 @@
-/* reset................................................................................................. */
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-}
-
-ol, ul {
-	list-style: none;
-}
-
-blockquote, q {
-	quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* reset end.......................................................................................................................... */
-
-main {
-	width: 480px;
-	text-align: center;
-	margin: 0px auto;
-}
-
 article div:nth-child(1), article div:nth-child(2) {
-	width: 478px;
-	height: 125px;
 	background-color: #270d0b;
-	line-height: 125px;
 	border: solid black 1px;
 	border-top: none;
 	color: wheat;
@@ -65,22 +10,14 @@ section{
 }
 
 section:nth-child(1) {
-	width: 239px;
-	height: 250px;
 	background-color: #3b1410;
-	float: left;
-	line-height: 250px;
 	border-left: black solid 1px;
 	border-top: none;
 	color: wheat;
 }
 
 section:nth-child(2) {
-	width: 238px;
-	height: 250px;
 	background-color: #4f1b15;
-	float: left;
-	line-height: 250px;
 	border-right: black solid 1px;
 	border-left: black solid 1px;
 	border-top: none;
@@ -88,22 +25,14 @@ section:nth-child(2) {
 }
 
 section:nth-child(3) {
-	width: 239px;
-	height: 250px;
 	background-color: #63221b;
-	float: left;
-	line-height: 250px;
 	border-left: black solid 1px;
 	color: wheat;
 
 }
 
 section:nth-child(4) {
-	width: 238px;
-	height: 250px;
 	background-color: #772820;
-	float: left;
-	line-height: 250px;
 	border-right: black solid 1px;
 	border-left: black solid 1px;
 	color: wheat;
@@ -111,66 +40,34 @@ section:nth-child(4) {
 
 
 div:last-child {
-	width: 478px;
-	height: 80px;
 	background-color: #9e4339;
-	float: left;
-	clear: both;
-	line-height: 80px;
 	border: black solid 1px;
 	color: wheat;
 }
 
 @media (min-width:768px) {
-	main {
-		width: 960px;
-		text-align: center;
-		margin: 0px auto;
-	}
 
 	article div:nth-child(1){
-		width: 378px;
-		height: 200px;
 		background-color: #072a2b;
-		line-height: 200px;
-		float: left;
-		clear: right;
 		border-left: none;
 	}
 	article div:nth-child(2){
-		width: 378px;
-		height: 200px;
 		background-color: #0b3f41;
-		line-height: 200px;
-		float: left;
-		clear: right;
 		border-left: none;
 		border-right: none;
 		border-top: none;
 	}
 
 	section:nth-child(1){
-		width: 189px;
-		height: 250px;
 		background-color: #0f5457;
-		float: left;
-		clear: right;
-		line-height: 250px;
 		border-left: none;
-
 	}
 
 	section:nth-child(2){
-		width: 188px;
-		height: 250px;
 		background-color: #0b3f41;
-		float: left;
-		clear: right;
-		line-height: 250px;
 	}
 
 	section:nth-child(3){
-		width: 189px;
 		background-color: #12696d;
 		border-left: none;
 		border-top: none;
@@ -178,22 +75,13 @@ div:last-child {
 	}
 
 	section:nth-child(4) {
-		width: 188px;
-		height: 250px;
 		background-color: #167e82;
-		float: left;
-		clear: right;
-		line-height: 250px;
 		border: none;
 	}
 
 
 	div:last-child {
-		width: 757px;
-		height: 148px;
 		background-color: #358c8f;
-		clear: both;
-		line-height: 150px;
 		border-left: none;
 		border-bottom: none;
 	}
